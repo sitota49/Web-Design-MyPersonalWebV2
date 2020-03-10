@@ -28,7 +28,7 @@
     </table>
     <hr>
     <!-- Contact form -->
-    >
+
     <table> 
         <tr>
             <td>
@@ -60,7 +60,7 @@
                    <tr>    
                        <td><label for="pass">Password:</label></td>
                     <td><input type="password" id="pass" name="password" placeholder="8 characters minimum"
-                           minlength="8" required pattern="(?=.*[a-z])(?=.*\d)(?=.*[A-Z]).{8,}"></td>
+                           minlength="8" required pattern="[a-z\d\A-Z\.*]{8,}"></td>
                         </tr>
                     <tr>
                         <td> <label for="tel">Phone Number</label></td>
