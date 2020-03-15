@@ -1,21 +1,22 @@
 body{
-    background-color: skyblue;
+    background-color: lightpink;
     /* border: 10px lightgrey solid ; */
     margin: 10px;
     font-size: 1.2rem;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-header{
-  
-    position: fixed;
-    top: 0;
-    width: 98%;
-    background-color : rgba(125,125,125,0.7); 
-    text-align: center;
-   
 
+header{
+    display: flex;
+    float: left;
+    width: 170px;
+    flex-direction: column;
+    background-color : rgba(125,125,125,0.7); 
+    position: fixed;
+    margin-left: 0;
 }
+
 
 figure{
     display: inline;
@@ -71,18 +72,14 @@ nav > ul > li:hover
 }
 
 .images{
-    height: 300px;
-    width: 30%;
-    margin-left: 1.6667%;
-    margin-right: 1.6667%;
-    display: inline;
-    float: left;
-    margin-bottom: 20px;
+    flex: 100%;
+    width: 100%;
+    
 }
 
 
 .main{
-    margin: 20px;
+    margin: 20 px;
 }
 .footer{
     text-align: center;
@@ -100,8 +97,7 @@ nav > ul > li:hover
 }
 
 #part1{
-    padding-top: 65px;
-   
+    padding-top: 35px;
 }
 .parts{
      border-bottom: 1px solid lightgray;
@@ -130,9 +126,7 @@ nav > ul > li:hover
 }
 
 
-.content{
-    display: block;
-}
+
 #inp2{
     margin-left: 3px;
 }
@@ -156,3 +150,58 @@ nav > ul > li:hover
 #leave{
     margin-top: 20px;
 }
+.content{
+    margin-left: 180px;
+}
+
+
+@media screen and (min-width: 900px) {
+    body {
+      background-color: skyblue;
+    }.images {
+        height: 300px;
+        width: 30%;
+        margin-left: 1.6667%;
+        margin-right: 1.6667%;
+        display: inline;
+        float: left;
+        margin-bottom: 20px;
+    }
+    #index_sec{
+        display: flex;
+        
+    }
+    
+
+    article{
+        flex: 300px;
+        font-size: 18px;
+        line-height: 20px;
+        flex-flow: row wrap;
+        margin: 0 30px;
+        justify-content: space-between;
+     
+    }
+    header{
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 98%;
+        background-color : rgba(125,125,125,0.7); 
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .content{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #part1{
+        padding-top: 75px;
+    }
+  
+  }
+
+  
+ 
