@@ -1,0 +1,155 @@
+#main{
+    background-color: lightgray;
+    padding: 20px;
+    width: auto;
+}
+.content{
+    width: 100%;
+    background-color: lightgray;
+}
+.cells{
+    border: none;
+    height: 150px;
+    margin-left: 1.6667%;
+    margin-right: 1.667%;
+    width: 30%;
+    max-width: 250px;
+    float: left;
+}
+#Bulgaria_White{
+    width : 250px;
+    height: 50px;
+    background-color: white;
+}
+#Bulgaria_Green{
+    width : 250px;
+    height: 50px;
+    background-color: #40916f;
+}
+#Bulgaria_Red{
+    width : 250px;
+    height: 50px;
+    background-color:#cf1313;
+    border-top: solid 1px #cf1313;
+}
+#Chad_Blue{
+    width : 83.33px;
+    height: 152px;
+    background-color: #1b0d61;
+}
+#Chad_Yellow{
+    width : 83.33px;
+    height: 152px;
+    background-color: #ffcb1f;
+}
+#Chad_Red{
+    width : 83.33px;
+    height: 152px;
+    background-color: #ba1414;
+}
+#chad{
+    display: flex;
+}
+#denmark{
+    background-color: white;
+    width: 100%;
+}
+
+#den1{
+    background-color: #d10a06;
+    width: 69px;
+    height: 65px;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+}
+#den2{
+    background-color: #d10a06;
+    width: 161px;
+    height: 65px;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+}
+#den3{
+    background-color: #d10a06;
+    width: 69px;
+    height: 65px;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+}
+#den4{
+    background-color: #d10a06;
+    width: 161px;
+    height: 65px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+}
+
+
+#greek{
+    background-color: white;
+    width: 100%;
+    table-layout: ;
+}
+#g1{
+    width: 83.3px;
+}
+#g11{
+    background-color: #11278c;
+    width: 36.5px;
+    height: 32.5px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+#g12{
+    background-color: #11278c;
+    width: 36.5px;
+    height: 32.5px;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+}
+#g13{
+    background-color: #11278c;
+    width: 36.5px;
+    height: 32.5px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+}
+#g14{
+    background-color: #11278c;
+    width: 36.5px;
+    height: 32.5px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+}
+#g2{
+    width: 160px;
+    float: left;
+  padding: 0;
+  margin-top: 3px;
+}
+.g2b{
+    background-color: #11278c;
+    width: 160px;
+    height: 18.75px;
+}
+.g2w{
+    background-color: white;
+    width: 160px;
+    height: 18.75px;
+}
+#g3{
+    width: 250px;
+}
+.g3b{
+    background-color: #11278c;
+    width: 250px;
+    height: 18.75px;
+}
+.g3w{
+    background-color: white;
+    width: 250px;
+    height: 18.75px;
+}
+#greekrow1{
+    display: inline-flex;
+}
