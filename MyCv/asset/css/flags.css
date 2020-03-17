@@ -1,20 +1,45 @@
-#main{
+
+body{
     background-color: lightgray;
-    padding: 20px;
-    width: auto;
+    margin: 20px;
 }
 .content{
-    width: 100%;
-    background-color: lightgray;
+    display: block;
+    margin-left: 60px;
+  
 }
-.cells{
-    border: none;
-    height: 150px;
-    margin-left: 1.6667%;
-    margin-right: 1.667%;
-    width: 30%;
-    max-width: 250px;
-    float: left;
+#flag_heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 35px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.cap{
+ 
+    width: 250px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.flags{
+    flex: 100%;
+    width: 100%;
+
+}
+#chadd{
+    display: flex;
+    flex-direction: row;
 }
 #Bulgaria_White{
     width : 250px;
@@ -30,7 +55,6 @@
     width : 250px;
     height: 50px;
     background-color:#cf1313;
-    border-top: solid 1px #cf1313;
 }
 #Chad_Blue{
     width : 83.33px;
@@ -47,109 +71,215 @@
     height: 152px;
     background-color: #ba1414;
 }
-#chad{
+
+
+#Costarica_White{
+    width : 250px;
+    height: 25px;
+    background-color: white;
+}
+#Costarica_Red{
+    width : 250px;
+    height: 50px;
+    background-color: #cc182a;
+}
+#Costarica_Blue{
+    width : 250px;
+    height: 25px;
+    background-color:#0c2875;
+    }
+#Gambia_Red{
+    width : 250px;
+    height: 50px;
+    background-color: #ed3e3e;
+}
+#Gambia_White{
+    width : 250px;
+    height: 7.5px;
+    background-color: white;
+}
+#Gambia_Blue{
+    width : 250px;
+    height: 35px;
+    background-color: #3238a6;
+}
+#Gambia_Green{
+    width : 250px;
+    height: 50px;
+    background-color: #358c47;
+}
+   
+#circlee{
+    background:#a3001b;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    vertical-align: center;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+#Japan_White{
+    width : 250px;
+    height: 150px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#Mad_White{
+    width : 83.33px;
+    height: 150px;
+    background-color: white;
+}
+#Mad_Orange{
+    width : 166.67px;
+    height: 75px;
+    background-color: #e32a00;
+}
+#Mad_Green{
+    width : 166.67px;
+    height: 75px;
+    background-color: #005e1f;
+}
+#madd{
     display: flex;
+    flex-direction: row;
 }
-#denmark{
+#mad2{
+    display: flex;
+    flex-direction: column;
+}
+#Uae_Burgundy{
+    width : 62.5px;
+    height: 150px;
+    background-color: #7d0c0c;
+}
+#Uae_Green{
+    width : 187.5px;
+    height: 50px;
+    background-color: #013d13;
+}
+#Uae_White{
+    width : 187.5px;
+    height: 50px;
     background-color: white;
-    width: 100%;
+}
+#Uae_Black{
+    width : 187.5px;
+    height: 50px;
+    background-color: black;
+}
+#uaee{
+    display: flex;
+    flex-direction: row;
+}
+#uae2{
+    display: flex;
+    flex-direction: column;
+}
+#Yemen_Red{
+    width : 250px;
+    height: 50px;
+    background-color: #f03030;
+}
+#Yemen_White{
+    width : 250px;
+    height: 50px;
+    background-color: white;
+}
+#Yemen_Black{
+    width : 250px;
+    height: 50px;
+    background-color: Black;
+}
+#guineaa{
+    display: flex;
+    flex-direction: row;
+}
+#Guinea_Red{
+    width : 83.33px;
+    height: 152px;
+    background-color: #b80707;
 }
 
-#den1{
-    background-color: #d10a06;
-    width: 69px;
-    height: 65px;
-    border-bottom: 10px solid white;
-    border-right: 10px solid white;
-}
-#den2{
-    background-color: #d10a06;
-    width: 161px;
-    height: 65px;
-    border-bottom: 10px solid white;
-    border-left: 10px solid white;
-}
-#den3{
-    background-color: #d10a06;
-    width: 69px;
-    height: 65px;
-    border-top: 10px solid white;
-    border-right: 10px solid white;
-}
-#den4{
-    background-color: #d10a06;
-    width: 161px;
-    height: 65px;
-    border-top: 10px solid white;
-    border-left: 10px solid white;
+#Guinea_Yellow{
+    width : 83.33px;
+    height: 152px;
+    background-color: #ffdd00;
 }
 
+#Guinea_Green{
+    width : 83.33px;
+    height: 152px;
+    background-color: #48784c;
+}
 
-#greek{
-    background-color: white;
-    width: 100%;
-    table-layout: ;
+#Germany_Black{
+    width : 250px;
+    height: 50px;
+    background-color: black;   
 }
-#g1{
-    width: 83.3px;
+
+#Germany_Red{
+    width : 250px;
+    height: 50px;
+    background-color: #ff2200;   
 }
-#g11{
-    background-color: #11278c;
-    width: 36.5px;
-    height: 32.5px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
+
+#Germany_Yellow{
+    width : 250px;
+    height: 50px;
+    background-color: #ffc800;   
 }
-#g12{
-    background-color: #11278c;
-    width: 36.5px;
-    height: 32.5px;
-    border-bottom: 5px solid white;
-    border-left: 5px solid white;
+
+#Mauritius_Red{
+    width : 250px;
+    height: 37.5px;
+    background-color: #f52c2c;   
 }
-#g13{
-    background-color: #11278c;
-    width: 36.5px;
-    height: 32.5px;
-    border-top: 5px solid white;
-    border-right: 5px solid white;
+#Mauritius_Blue{
+    width : 250px;
+    height: 37.5px;
+    background-color: #020766;   
 }
-#g14{
-    background-color: #11278c;
-    width: 36.5px;
-    height: 32.5px;
-    border-top: 5px solid white;
-    border-left: 5px solid white;
+#Mauritius_Yellow{
+    width : 250px;
+    height: 37.5px;
+    background-color: #ffd505;   
 }
-#g2{
-    width: 160px;
-    float: left;
-  padding: 0;
-  margin-top: 3px;
+#Mauritius_Green{
+    width : 250px;
+    height: 37.5px;
+    background-color: #048a1f;   
 }
-.g2b{
-    background-color: #11278c;
-    width: 160px;
-    height: 18.75px;
-}
-.g2w{
-    background-color: white;
-    width: 160px;
-    height: 18.75px;
-}
-#g3{
+#Ukraine_Blue{
     width: 250px;
+    height: 75px;
+    background-color: #195eb3;
 }
-.g3b{
-    background-color: #11278c;
+
+#Ukraine_Yellow{
     width: 250px;
-    height: 18.75px;
+    height: 75px;
+    background-color: #ffd230 ;
 }
-.g3w{
-    background-color: white;
-    width: 250px;
-    height: 18.75px;
+
+@media screen and (min-width: 900px) {
+
+    .flags{
+        height: 180px;
+        width: 30%;
+        margin-left: 1.6667%;
+        margin-right: 1.6667%;
+        display: inline;
+        float: left;
+        margin-bottom: 40px;
+    
+    }
+
 }
-#greekrow1{
-    display: inline-flex;
-}
+
