@@ -28,47 +28,141 @@
         <div class="content">
             <section>
             <p class="title">
-            My First Post
+           Absolute Size Units Vs. Relative Size Units
             </p>
             <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
+               <p> CSS provides different length units to describe properties like margin, padding, width, height and font size. Some of these length units include %,  px, rem and em. These length units can be grouped into two namely absolute length units and relative length units. <br><br>
+                Absolute length units are used to express fixed lengths like in cm, mm and pxs. They are not recommended for screen use because screen size differs from device to device. <br><br>
+               Relative length units specify length in relative to other length units. Using relative length units is recommended for better scaling results while rendering our web page on different devices. Examples of relative length units include em(relative size to current element), rem(relative size to root element) and %(relative to parent element)
+               The Web Content Accessibility Guidelines published by W3C states that: <br>
+               <ul id="artts">
+                   <li>“Users must be able to resize text without assistive technology up to 200 percent, without loss of content or functionality.” –WCAG 1.4.4</li>
+                   <li>“Ideally, we should provide appropriate spacing between lines and paragraphs, and we shouldn’t be requiring the user to scroll horizontally to read a line of text on a full-screen window.” – WCAG 1.4.8</li>
+                   <li>“Users must be able to resize text without being forced to scroll both horizontally and vertically to read that content.”-WCAG 1.4.10</li>
+               </ul>
+               <br> 
+                     
+               As a result, I think relative length units should be used for a responsive outcome so that users can control their web browsing experience even when they change their settings on factors like zooming. Fixed pixel values for attributes like font size and line height don’t scale with browser adjustments making it difficult for the user. In general using relative CSS units helps developers maintain their layouts without negatively impacting user’s needs.
+               
+            </p>
             </article>
             <p class="date">
-            March 13,2020 : 3:00A.M.
+            March 18,2020 , 16:30.
             </p>
             </section>
             <section>
                 <p class="title">
-                My Second Post
+                Browser Interpretation of Width
                 </p>
                 <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
+                <p>
+                    Default browser width is set to 16pxs. Pixel is an absolute measurement, while percent and EM are relative measurements. Percent depends on its parent font size and EM is relative to the current size of the element.<br><br>
+The standard conversion formula is 16px = 100% = 1em. The browser interprets units from the cascading style sheets doing calculations based on this formula.<br><br>
+For example:  2em means 2 times the size of the current size. So, if the current size of body is 16 pixels, then 150% will be 24 pixels based on the calculation (1.5 * 16), and 2em will be 32 pixels (16 * 2). And just as 200px converts to 12.5em.<br><br>
+
+                </p>
+                
                 </article>
                 <p class="date">
-                March 13,2020 : 3:00A.M.
+                March 18,2020 : 16:36.
                 </p>
                 </section>
                 <section>
                     <p class="title">
-                    My Third Post
+                   New Feauters in CSS3
                     </p>
                     <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga tenetur sint ipsam voluptate enim quia. Repellendus asperiores aut assumenda autem dolorum ratione eaque?</p>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Some new selectors were introduced. These new selectors allow users to access DOM elements through their attributes making styling easier. For example the most useful attributes for selectors are: <br>
+                                    <ul class="inners">
+                                        <li>[attr^=val] Â–- matches a DOM element with the attribute attr and a value starting with val</li>
+                                        <li>[attr$=val] Â–- matches a DOM element with the attribute attr and a value ending with the suffix val</li>
+                                        <li>[attr*=val] Â–- matches a DOM element with the attribute attr and a value containing the substring val</li>
+
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Rounded Corners were introduced through the border radius property removing the hustle of adjusting height, width and posititioning of elements the developer had to go through. Rounder corners can be applied to different elements like text and images in html.</p>
+                            </li>
+                            <li>
+                                <p>The new Box Shadow and text shadow effects of css3 enable a shadow effect to be dropped around an element through a single line of code of css3 which was previously done using a repeated image around the element. </p>
+                            </li>
+                            <li><p>The color keyword list in CSS3 has been extended to include additional 147 keywords and also the ability to use semi-transparent colors through options like HSL, HSLA and RGBA.</p></li>
+
+                            <li>
+                                <p>Linear Gradients and Radial Gradients were also introduced to CSS3 for blending colors in differents angles for styling purposes.</p>
+                            </li>
+                            <li>New pseudo classes of selectors were introduced in CSS3. Some of these include:<br>
+                                <ul class="inners">
+                                    <li>:root<br>
+                                        The root element of the document.
+                                        </li>
+
+                                    <li>
+                                        :nth-child(n)<br>
+                                        Use this to match exact child elements or use variables to get alternating matches.
+                                    </li>
+                                    <li>
+                                        :nth-last-child(n)<br>Match exact child elements counting up from the last one.
+
+                                    </li>
+                                    <li>
+                                        :nth-of-type(n)<br>Match sibling elements with the same name before it in the document tree.
+                                    </li>
+                                    <li>
+                                        :nth-last-of-type(n)<br>Match sibling elements with the same name counting up from the bottom.
+
+                                    </li>
+                                    <li>:last-child<br>Match the last child element of the parent.</li>
+                                    <li>:first-of-type<br>Match the first sibling element of that type.</li>
+                                    <li>:last-of-type<br>Match the last sibling element of that type.</li>
+                                    <li>:only-child<br>Match the element that is the only child of its parent.</li>
+                                    <li>:only-of-type<br>Match the element that is the only one of its type.</li>
+                                    <li>:empty<br>Match the element that has no children (including text nodes).</li>
+                                    <li>:target<br>Match an element that is the target of the referring URI.</li>
+                                    <li>:enabled<br>Match the element when it's enabled.</li>
+                                    <li>:disabled<br>Match the element when it's disabled.</li>
+                                    <li>:checked<br>Match the element when it's checked (radio button or checkbox).</li>
+                                    <li>:not(s)<br>Match when the element does not match the simple selectors.</li>
+
+                                </ul>
+
+                            </li>
+                            <li>Multiple Background Images were also introduced to CSS3 to be layered over one another. The first layer being the one closer to the user and the others following behind. If there is a background color it is layered behind all the images.</li>
+                       <li>New background properties include:<br>
+                            <ul class="inners">
+                                <li> background-clip: defines how background image should be clipped, the default being the border box with options of being changed to the padding box or the content box.</li>
+                                <li>background-origin: determines whether the background should be placed in the padding box, the border box, or the content box.</li>
+                                <li>background-size: indicates the size of the background image. It allows you to stretch smaller images to fit the page.</li>
+                            </ul>
+                       </li>
+                       <li>New border properties include: <br>
+                    
+                    <ul class="inners">
+
+                        <li>border-radius : to create rounded corners on your borders.</li>
+                        <li>border-image-source : to specify the image source file </li>
+                        <li>border-image-slice : to represent the inward offset from image edges.</li>
+                        <li>border-image-width :defines the value of the width for your border image.</li>
+                        <li>border-image-outset :to specifiy the amount that the border image area extends beyond the border box.</li>
+                        <li>border-image-stretchefines how the sides and middle parts of the border image should be tiled or scaled.</li>
+                  </ul>
+                    
+                    
+                    </li>
+                       
+                       
+                        </ol>
+
+                    </p>
+                    
                     </article>
                     <p class="date">
-                    March 13,2020 : 3:00A.M.
+                    March 18,2020 ,17:03.
                     </p>
                     </section>
             </div>

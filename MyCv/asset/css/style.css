@@ -70,7 +70,9 @@ nav > ul > li:hover
     padding-top: 65px;
   
 }
-
+.inners{
+    font-size: 16px;
+}
 .images{
     flex: 100%;
     width: 100%;
@@ -80,6 +82,11 @@ nav > ul > li:hover
 #works{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#artts{
+    font-style: italic;
+    font-size: 16px;
 }
 
 .main{
