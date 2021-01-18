@@ -1,0 +1,11 @@
+.spec2 {
+  padding-left: 3px;
+}
+
+.spec1 {
+  padding-right: 3px;
+}
+
+.logosec:hover {
+  transform: skewX(-7deg);
+}
