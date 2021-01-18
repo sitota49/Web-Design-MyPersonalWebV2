@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.navbar-brand {
+  border: none;
+}
 .spec2 {
   padding-left: 3px;
 }
@@ -8,4 +18,163 @@
 
 .logosec:hover {
   transform: skewX(-7deg);
+}
+
+#sec_pic {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#hi {
+  font-size: 9vw;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 100%;
+}
+
+.bg-overlayspec {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/20200129_223219.jpg);
+  /* opacity: 1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  z-index: -1;
+}
+
+#chevron {
+  position: absolute;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  margin-top: 271px;
+  height: 62px;
+  width: 100%;
+}
+#chevron:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  transform: skew(0deg, 6deg);
+}
+#chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  transform: skew(0deg, -6deg);
+}
+
+@media screen and (min-width: 768px) {
+  #hi {
+    font-size: 65px;
+  }
+  .descsimp {
+    font-size: 42px;
+  }
+  #secheader {
+    font-size: 32px;
+  }
+  #seccontent {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #hi {
+    font-size: 48px;
+    line-height: 1.2em;
+  }
+  .descsimp {
+    font-size: 26px;
+  }
+  #secheader {
+    font-size: 26px;
+  }
+  #seccontent {
+    font-size: 20px;
+  }
+}
+
+.descsimp {
+  color: rgb(51, 51, 51);
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.sectionofphotos {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sectionofdiff {
+  padding: 20px;
+  margin-top: 20px;
+}
+#secheader {
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  color: rgb(39, 33, 33);
+  text-align: center;
+}
+
+#seccontent {
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+}
+#seccontent a {
+  color: #e74343;
+  text-decoration: none;
+  text-decoration-color: rgb(231, 67, 67);
+}
+
+#seccontent a:hover {
+  color: rgb(231, 107, 107);
+  text-decoration: none;
+  text-decoration-color: rgb(231, 87, 87);
+}
+.secbtn {
+  background-color: #e45757;
+  color: white;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.secbtn:hover {
+  background-color: #e45757;
+  color: white;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#imgdiff {
+  max-width: 100%;
+  height: auto;
+  vertical-align: center;
+  align-self: center;
 }
