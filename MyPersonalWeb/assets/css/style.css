@@ -90,10 +90,10 @@ body {
   .descsimp {
     font-size: 42px;
   }
-  #secheader {
+  #secheader #cardheading {
     font-size: 32px;
   }
-  #seccontent {
+  #seccontent #cardcontent {
     font-size: 20px;
   }
 }
@@ -106,11 +106,11 @@ body {
   .descsimp {
     font-size: 26px;
   }
-  #secheader {
+  #secheader #cardheading {
     font-size: 26px;
   }
-  #seccontent {
-    font-size: 20px;
+  #seccontent #cardcontent {
+    font-size: 18px;
   }
 }
 
@@ -142,6 +142,7 @@ body {
   color: rgb(51, 51, 51);
   font-weight: 400;
 }
+
 #seccontent a {
   color: #e74343;
   text-decoration: none;
@@ -177,4 +178,135 @@ body {
   height: auto;
   vertical-align: center;
   align-self: center;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 4px;
+  color: black;
+  background-color: black;
+}
+.carousel-indicators {
+  padding-top: 200px;
+}
+
+#specc3 {
+  margin-top: 40px;
+}
+
+#specc4 {
+  margin-top: 75px;
+}
+
+#car {
+  padding-left: 30px;
+}
+
+.iconn {
+  align-self: left;
+  align-content: left;
+  margin-right: 90px;
+}
+
+.buttontxt {
+  align-content: center;
+  align-self: center;
+  margin-right: 70px;
+}
+
+.iconn2 {
+  align-self: left;
+  align-content: left;
+  margin-right: 50px;
+}
+
+.buttontxt2 {
+  align-content: center;
+  align-self: center;
+  margin-right: 35px;
+}
+#cardss {
+  margin-top: 30px;
+}
+
+#cardimg {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  align-self: center;
+  max-width: 100%;
+}
+#car {
+  margin-top: 40px;
+}
+
+#cardheading {
+  color: rgb(39, 33, 33);
+  font-weight: 700;
+}
+
+#cardcontent {
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+}
+
+#aut {
+  color: #e74343;
+  text-decoration: none;
+  text-decoration-color: rgb(231, 67, 67);
+}
+
+#aut:hover {
+  color: rgb(231, 107, 107);
+  text-decoration: none;
+  text-decoration-color: rgb(231, 87, 87);
+}
+
+#footersec {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bg-overlayspec4 {
+  background: linear-gradient(rgba(34, 93, 123, 0.59), rgba(0, 0, 0, 0.2)),
+    url(../images/leaf.jpg);
+  /* opacity: 1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  z-index: -1;
+  width: 50%;
+}
+#chevron4 {
+  position: absolute;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  margin-top: 271px;
+  height: 62px;
+  width: 100%;
+  z-index: -1;
+}
+#chevron4:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: rgb(27, 37, 47);
+  transform: skew(0deg, 6deg);
+}
+#chevron4:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: rgb(27, 37, 47);
+  transform: skew(0deg, -6deg);
 }
