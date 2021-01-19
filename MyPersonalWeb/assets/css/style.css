@@ -547,6 +547,7 @@ blockquote {
 #linkhead {
   color: rgb(50, 50, 50);
   font-weight: 700;
+  margin-top: 25px;
 }
 
 #linkhead a {
@@ -560,4 +561,10 @@ blockquote {
   align-self: center;
   padding-left: 100px;
   margin-top: 20px;
+}
+
+.linkheadspec {
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  margin-top: 15px;
 }
