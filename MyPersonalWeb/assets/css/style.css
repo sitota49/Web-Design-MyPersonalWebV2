@@ -548,6 +548,10 @@ blockquote {
   color: rgb(50, 50, 50);
   font-weight: 700;
   margin-top: 25px;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  text-align: center;
 }
 
 #linkhead a {
@@ -569,7 +573,7 @@ blockquote {
   margin-top: 15px;
 }
 
-#imgdiff {
+#imgdiff2 {
   max-width: 100%;
   height: auto;
   vertical-align: center;
