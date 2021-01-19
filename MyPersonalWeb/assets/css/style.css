@@ -102,6 +102,9 @@ body {
   #projlink {
     font-size: 28px;
   }
+  #iwrite {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -123,6 +126,9 @@ body {
   }
   #projlink {
     font-size: 24px;
+  }
+  #iwrite {
+    font-size: 21px;
   }
 }
 
@@ -508,7 +514,33 @@ blockquote {
   margin-bottom: 30px;
 }
 #whatt {
-  margin-left: 35px;
+  margin-left: 85px;
   margin-right: 35px;
   padding: 10px;
+}
+#iwrite {
+  text-align: center;
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+}
+#searchtab {
+  width: 90%;
+  margin-right: 0;
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  font-size: 15px;
+  background-color: #dedede;
+  border: #dedede solid 1px;
+}
+#searchbtn {
+  background-color: rgb(129, 138, 145);
+  margin-left: 0;
+  border-bottom-left-radius: 02px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
