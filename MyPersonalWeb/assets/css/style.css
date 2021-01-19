@@ -90,7 +90,7 @@ body {
   .descsimp {
     font-size: 42px;
   }
-  #secheader #cardheading {
+  #secheader #cardheading #linkhead {
     font-size: 32px;
   }
   #seccontent #cardcontent {
@@ -124,7 +124,7 @@ body {
   #abtme {
     font-size: 32px;
   }
-  #projlink {
+  #projlink #linkhead {
     font-size: 24px;
   }
   #iwrite {
@@ -543,4 +543,21 @@ blockquote {
   border-top-left-radius: 0px;
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
+}
+#linkhead {
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+}
+
+#linkhead a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  text-align: center;
+}
+
+.iss {
+  align-self: center;
+  padding-left: 100px;
+  margin-top: 20px;
 }
