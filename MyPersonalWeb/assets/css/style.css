@@ -568,3 +568,35 @@ blockquote {
   font-weight: 700;
   margin-top: 15px;
 }
+
+#imgdiff {
+  max-width: 100%;
+  height: auto;
+  vertical-align: center;
+  align-self: center;
+  padding: 0;
+}
+
+#sidebar {
+  margin-top: 80px;
+}
+
+.list-group-item {
+  border: none;
+  color: black;
+}
+
+.list-group-item:hover {
+  color: #e45757;
+  text-decoration: none;
+}
+
+#toc {
+  color: black;
+  font-weight: 700;
+}
+
+#toc:hover {
+  color: black;
+  text-decoration: none;
+}
