@@ -8,12 +8,17 @@ body {
 .navbar-brand {
   border: none;
 }
-.spec2 {
-  padding-left: 3px;
+
+.spec1:hover {
+  background-color: black;
+  color: white;
 }
 
-.spec1 {
-  padding-right: 3px;
+.ii:hover {
+  color: lightgrey;
+}
+.spec1:hover a {
+  color: white;
 }
 
 .logosec:hover {
@@ -129,6 +134,10 @@ body {
   }
   #iwrite {
     font-size: 21px;
+  }
+  #navul {
+    width: 50%;
+    margin-left: 10px;
   }
 }
 
@@ -603,4 +612,20 @@ blockquote {
 #toc:hover {
   color: black;
   text-decoration: none;
+}
+.sticky-top {
+  background-color: white;
+}
+
+.dropdown-menu a {
+  color: black;
+}
+.dropdown-menu {
+  color: black;
+}
+.dropdown-menu a:hover {
+  color: black;
+}
+#oo {
+  color: black;
 }
