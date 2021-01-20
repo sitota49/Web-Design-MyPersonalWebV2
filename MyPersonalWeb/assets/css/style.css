@@ -59,11 +59,9 @@ body {
 }
 
 #chevron {
-  position: absolute;
+  position: relative;
   text-align: center;
-  padding: 12px;
-  margin-bottom: 6px;
-  margin-top: 271px;
+
   height: 62px;
   width: 100%;
 }
@@ -75,7 +73,7 @@ body {
   height: 100%;
   width: 50%;
   background: white;
-  transform: skew(0deg, 6deg);
+  transform: skew(0deg, 3deg);
 }
 #chevron:after {
   content: "";
@@ -85,7 +83,7 @@ body {
   height: 100%;
   width: 50%;
   background: white;
-  transform: skew(0deg, -6deg);
+  transform: skew(0deg, -3deg);
 }
 
 @media screen and (min-width: 768px) {
@@ -471,7 +469,6 @@ blockquote {
   align-items: center;
   align-content: center;
   padding: 10px;
-  margin-left: 20px;
 }
 #secmid a {
   align-self: center;
